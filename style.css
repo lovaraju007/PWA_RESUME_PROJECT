@@ -12,6 +12,7 @@
   margin:20px;
   width:30%;
   text-align: center;
+  box-shadow:  10px #E72A14;
 }
 
 .child2{
@@ -20,6 +21,7 @@
   padding:2%;
   margin:20px;
   width:70%;
+  box-shadow: 10px #E72A14;
 }
 
 .child1 img{
@@ -39,7 +41,7 @@
   word-wrap: break-word;
 }
 
-.child2 h2{
+.child2 h2,h1{
   word-wrap: break-word;
 }
 
@@ -61,6 +63,7 @@
      margin:2%;
      width:90%;
      text-align: center;
+     box-shadow: 10px #E72A14;
    }
 
    .child2{
@@ -69,6 +72,7 @@
      padding:2%;
      margin:2%;
      width:90%;
+     box-shadow: 10px #E72A14;
    }
 
    .child1 img{
@@ -87,7 +91,7 @@
    .child1 h2,h1,p,a{
      word-wrap: break-word;
    }
-   .child2 h2{
+   .child2 h2,h1{
      word-wrap: break-word;
    }
  }
@@ -111,6 +115,7 @@
      border-radius:5%;
      width:45%;
      text-align: center;
+     box-shadow: 1px #E72A14;
    }
 
    .child2{
@@ -121,6 +126,7 @@
      margin-left: 2px;
      border-radius: 5%;
      width:50%;
+     box-shadow: 1px #E72A14;
    }
 
    .child1 img{
@@ -142,7 +148,7 @@
    .child1 p{
      font-size: 120%
    }
-   .child2 h2{
+   .child2 h2,h1{
      font-size: 150%;
      word-wrap: break-word;
    }
