@@ -22,8 +22,12 @@
   margin:20px;
   width:70%;
   box-shadow: 10px #E72A14;
+  table-layout: fixed;
 }
 
+ td{
+   word-break: break-all;
+ }
 .child1 img{
   border-radius: 50%;
   border: 2px solid orange;
@@ -41,7 +45,7 @@
   word-wrap: break-word;
 }
 
-.child2 h2,h1{
+.child2 h3,h1{
   word-wrap: break-word;
 }
 
@@ -73,7 +77,12 @@
      margin:2%;
      width:90%;
      box-shadow: 10px #E72A14;
+     table-layout: fixed;
    }
+
+    td{
+      word-break: break-all;
+    }
 
    .child1 img{
      border-radius: 50%;
@@ -91,7 +100,7 @@
    .child1 h2,h1,p,a{
      word-wrap: break-word;
    }
-   .child2 h2,h1{
+   .child2 h3,h1{
      word-wrap: break-word;
    }
  }
@@ -127,7 +136,12 @@
      border-radius: 5%;
      width:50%;
      box-shadow: 1px #E72A14;
+     table-layout: fixed;
    }
+
+    td{
+      word-break: break-all;
+    }
 
    .child1 img{
      border-radius: 50%;
@@ -148,7 +162,7 @@
    .child1 p{
      font-size: 120%
    }
-   .child2 h2,h1{
+   .child2 h3,h1{
      font-size: 150%;
      word-wrap: break-word;
    }

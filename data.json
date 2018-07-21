@@ -8,5 +8,35 @@
   },
   "career":{
     "info":"To pursure a challenging career,ability to learn quickly"
-  }
+  },
+  "education":[{
+    "degree":"B-Tech",
+    "institute":"SRKREC",
+    "date":["2016-2020","88%"]
+  },
+  {
+    "degree":"Intermediate",
+    "institute":"NARAYANA JR COLLEGE",
+    "date":["2014-2016","94.8%"]
+  },
+  {
+    "degree":"SSC",
+    "institute":"GEETHA HIGH SCHOOL",
+    "date":["2014","98%"]
+  }],
+  "keyskills":[{
+    "title":"Programming languages:",
+    "info":["c,C++,java,python,ruby"]
+  },
+  {
+    "title":"Operating Systems:",
+    "info":["Windows,linux,mac,ubuntu,dos"]
+  },
+{
+  "title":"Databases:",
+  "info":["oracle,sql,mysql"]
+  }],
+  "achievements":{
+  "info":["Prathiba award holder based on ssc results","i am Basketball plaer and represents srkrec in university games","i successfully completed certification on java in spoken tutorials organized by IIT,Bombai"]
+}
 }
