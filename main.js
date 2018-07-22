@@ -1,4 +1,4 @@
-function Loadjson(file,callback) {
+/*function Loadjson(file,callback) {
   var xml = new XMLHttpRequest();
   xml.overrideMimeType("application/json");
   xml.open("GET",file,true);
@@ -14,7 +14,28 @@ Loadjson("data.json",function(text) {
   var data = JSON.parse(text);
   console.log(data);
   basics(data.details);
-  basics_1(data.career);
+  careerObj(data.career);
+  education(data.education);
+  techSkills(data.keyskills);
+  achievements(data.achievements);
+})*/
+function loadjson(file) {
+  return new Promise((resolve,reject)=>{
+    return fetch(file).then(response=>{
+      if(response.ok) {
+        resolve(response.json());
+      }else{
+        reject(new Error('error'));
+      }
+    })
+  })
+}
+
+var file = loadjson("data.json");
+file.then(data=>{
+  console.log(data);
+  basics(data.details);
+  careerObj(data.career);
   education(data.education);
   techSkills(data.keyskills);
   achievements(data.achievements);
@@ -55,7 +76,7 @@ function basics(det){
 
 var child2=document.querySelector(".child2");
 
-function basics_1(det_1){
+function careerObj(det_1){
 
   var head_1 = document.createElement("h1");
   head_1.textContent = "Career Objectives:";
@@ -129,4 +150,8 @@ function achievements(achieve){
     listdata=listdata+"<li>"+achieve.info[i]+"</li>";
   }
     ul.innerHTML=listdata;
+}
+
+function openpage(){
+  window.open("resume.html","_self","true")
 }

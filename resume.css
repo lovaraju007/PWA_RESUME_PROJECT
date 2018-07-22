@@ -1,0 +1,60 @@
+.parent{
+  display:flex;
+  width:100%;
+  border:3px solid lime;
+  display:flex;
+  flex-direction: row;
+}
+.left{
+  border: 3px solid black;
+  width: 30%;
+  padding: 2%;
+  margin: 2%;
+}
+.left h2{
+  text-align: center;
+  word-wrap: break-word;
+}
+.right{
+  border:2px solid maroon;
+  width:70%;
+  padding:2%;
+  margin: 2%;
+}
+.right th,td{
+  word-break: break-all;
+}
+img{
+  border-radius: 50%;
+  border: 2px solid red;
+  width:60%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 3px 7px 3px 1px #CE5937;
+}
+hr{
+  background-color: red;
+}
+#co{
+  color:blue;
+}
+#para{
+  font-size: 20px;
+  color:;
+}
+li{
+  color:blueviolet;
+  font-size: 20px;
+}
+#in{
+  color:coral;
+  font-size: 20px;
+}
+#ssc{
+  color:magento;
+  font-size: 20px;
+}
+#ach{
+  color:brown;
+}
